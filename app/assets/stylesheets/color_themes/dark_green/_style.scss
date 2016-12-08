@@ -1,9 +1,10 @@
 /* Main color(s) */
-$brand-primary: #009900;
+ $brand-primary: #009900;
+//$brand-primary: #086CC8;
 
 /* Shades */
 $main-color-essence: fade-out($brand-primary, 0.8);
-$main-color-dark: darken($brand-primary, 20%);
+$main-color-dark:$brand-primary;
 
 /* Bootstrap Variables */
 $btn-primary-bg: $brand-primary;
